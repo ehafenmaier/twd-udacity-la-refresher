@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3bd8f11f-15b8-453e-9a2e-fc296ab5afbd</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Lesson.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>vectors\lesson.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>VectorApp</Name>
+    <Name>UdacityLA</Name>
     <RootNamespace>VectorApp</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,8 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Lesson.py" />
-    <Compile Include="Vector.py" />
+    <Compile Include="vectors\lesson.py" />
+    <Compile Include="vectors\vector.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="intersections\" />
+    <Folder Include="vectors\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
